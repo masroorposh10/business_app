@@ -11,8 +11,8 @@ const ContactForm = () => {
         setLoading(true);
 
         emailjs
-            .sendForm('service_xapcnwg', 'template_twt17wp', form.current, {
-                publicKey: 'KUkxmgUD_IuFFaTZ7',
+            .sendForm('service_sxkvb65', 'template_bcsona5', form.current, {
+                publicKey: 'IBc8vS--T4kFu2wo2',
             })
             .then(
                 () => {

@@ -55,8 +55,8 @@ const TherapistForm = () => {
     setLoading(true);
 
     emailjs
-      .sendForm('service_xapcnwg', 'template_u99pubk', form.current, {
-        publicKey: 'KUkxmgUD_IuFFaTZ7',
+      .sendForm('service_sxkvb65', 'template_embbxii', form.current, {
+        publicKey: 'IBc8vS--T4kFu2wo2',
       })
       .then(
         () => {
